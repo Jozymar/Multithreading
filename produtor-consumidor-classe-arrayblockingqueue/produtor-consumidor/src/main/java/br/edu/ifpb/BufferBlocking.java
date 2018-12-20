@@ -1,6 +1,6 @@
 package br.edu.ifpb;
 
-// Classe BufferExemplo que implementa os métodos set e get com ArrayBlockingQueue
+// Classe BufferBlocking que implementa os métodos set e get com ArrayBlockingQueue
 
 import java.util.concurrent.ArrayBlockingQueue;
 

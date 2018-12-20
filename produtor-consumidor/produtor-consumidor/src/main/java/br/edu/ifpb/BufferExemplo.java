@@ -8,7 +8,7 @@ public class BufferExemplo implements Buffer {
 
     public void set(int valor) {
 
-        System.out.printf("Produtor grava:\t%2d\n", valor);
+        System.out.printf("Produtor grava: \t%2d\n", valor);
 
         buffer = valor;
 
@@ -16,7 +16,7 @@ public class BufferExemplo implements Buffer {
 
     public int get() {
 
-        System.out.printf("Consumidor lê:\t%2d\n", buffer);
+        System.out.printf("Consumidor lê: \t%2d\n", buffer);
 
         return buffer;
     }
